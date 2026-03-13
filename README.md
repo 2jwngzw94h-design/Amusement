@@ -1,7 +1,6 @@
 # Webapp Leaflet + ESRI Feature Service
 
-Application cartographique légère qui consomme le service ArcGIS suivant :
-`https://bpr-sig.culture.gouv.fr/server/rest/services/Monuments_Historiques_ext/MapServer`.
+Application cartographique légère qui consomme le service ArcGIS
 
 ## Lancer en local
 
