@@ -1,0 +1,34 @@
+:root {
+  --app-map-height: calc(100vh - 140px);
+}
+
+body {
+  min-height: 100vh;
+}
+
+.app-layout {
+  min-height: calc(100vh - 110px);
+}
+
+.map-card,
+#map {
+  height: var(--app-map-height);
+}
+
+#map {
+  border-radius: 0.5rem;
+}
+
+#filters-panel {
+  max-height: var(--app-map-height);
+}
+
+.filter-chip {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 992px) {
+  :root {
+    --app-map-height: 65vh;
+  }
+}
